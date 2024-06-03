@@ -5,9 +5,14 @@
 - MacOS 14.3
 - VSCode
 - npm
-- node 22.2
+- nvm
+- node 22.2.0
 
 ## How to start
+
+```
+nvm use
+```
 
 ```
 npm install
