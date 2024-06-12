@@ -5,6 +5,7 @@ import BoundLayer from './Models/BoundLayer';
 import Bunny from './Models/Bunny';
 import Crosshair from './Models/Crosshair';
 import LightTank from './Models/LightTank';
+import CreateEnemy from './Models/CreateEnemy';
 
 (async () =>
 {
@@ -28,6 +29,7 @@ import LightTank from './Models/LightTank';
         'assets/crosshair/crosshair.png',
         'assets/turret/light tank.json',
         'assets/bullet/bullet.png',
+        'assets/enemy/samurai.json',
     ]);
 
     // 建立場景
@@ -44,4 +46,22 @@ import LightTank from './Models/LightTank';
 
     // 建立準心
     const corsshair = new Crosshair(app.entityManager);
+    // 設定敵人出現
+    new CreateEnemy(app.entityManager, 700, 0);
+    new CreateEnemy(app.entityManager, 700, 100);
+    new CreateEnemy(app.entityManager, 700, 200);
+
+    // 定時產生新的敵人
+    var delta: number = 0
+    var enemyDuration: number = 10000;
+    pixi.ticker.add((time) => {
+        delta += time.deltaTime;
+        if (delta > (enemyDuration / 1000) * 60) {
+            new CreateEnemy(app.entityManager, 700, 0);
+            new CreateEnemy(app.entityManager, 700, 150);
+            new CreateEnemy(app.entityManager, 700, 300);
+
+            delta = 0;
+        }
+    });
 })();

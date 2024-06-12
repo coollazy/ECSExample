@@ -20,6 +20,8 @@ import FireSystem from "./Systems/FireSystem";
 
 import ForceDirectionSystem from "./Systems/ForceDirectionSystem";
 
+import EnemyGenerateSystem from "./Systems/EnemyGenerateSystem";
+
 import DestorySystem from "./Systems/DestorySystem";
 
 export default class App {
@@ -53,6 +55,8 @@ export default class App {
         this.systemManager.addSystem(new FireSystem(this.entityManager));
 
         this.systemManager.addSystem(new ForceDirectionSystem(this.entityManager));
+        
+        this.systemManager.addSystem(new EnemyGenerateSystem(this.entityManager));
 
         this.systemManager.addSystem(new DestorySystem(this.entityManager));
     }

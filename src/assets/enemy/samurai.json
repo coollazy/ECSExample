@@ -1,0 +1,495 @@
+{"frames": {
+
+"Samurai-idle_00.png":
+{
+	"frame": {"x":169,"y":1,"w":156,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":156,"h":122},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_01.png":
+{
+	"frame": {"x":1070,"y":1,"w":150,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":0,"w":150,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_02.png":
+{
+	"frame": {"x":747,"y":125,"w":148,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":0,"w":148,"h":124},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_03.png":
+{
+	"frame": {"x":897,"y":125,"w":144,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":3,"w":144,"h":124},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_04.png":
+{
+	"frame": {"x":1222,"y":1,"w":142,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":6,"w":142,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_05.png":
+{
+	"frame": {"x":1366,"y":1,"w":139,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":9,"w":139,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_06.png":
+{
+	"frame": {"x":1507,"y":1,"w":134,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":7,"w":134,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_07.png":
+{
+	"frame": {"x":327,"y":1,"w":135,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":5,"w":135,"h":122},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_08.png":
+{
+	"frame": {"x":464,"y":1,"w":138,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":3,"w":138,"h":122},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_09.png":
+{
+	"frame": {"x":1481,"y":126,"w":143,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":1,"w":143,"h":126},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_10.png":
+{
+	"frame": {"x":619,"y":251,"w":148,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":0,"w":148,"h":130},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_11.png":
+{
+	"frame": {"x":1360,"y":254,"w":151,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":151,"h":133},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_12.png":
+{
+	"frame": {"x":591,"y":383,"w":152,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":1,"w":152,"h":136},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_13.png":
+{
+	"frame": {"x":1044,"y":385,"w":152,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":2,"w":152,"h":139},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_14.png":
+{
+	"frame": {"x":1351,"y":389,"w":150,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":4,"w":150,"h":140},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_15.png":
+{
+	"frame": {"x":897,"y":384,"w":145,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":7,"w":145,"h":138},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_16.png":
+{
+	"frame": {"x":769,"y":251,"w":141,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":5,"w":141,"h":130},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_17.png":
+{
+	"frame": {"x":912,"y":252,"w":137,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":3,"w":137,"h":130},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_18.png":
+{
+	"frame": {"x":1513,"y":255,"w":133,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":2,"w":133,"h":133},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_19.png":
+{
+	"frame": {"x":1,"y":249,"w":129,"h":140},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":0,"w":129,"h":140},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_20.png":
+{
+	"frame": {"x":1,"y":381,"w":134,"h":143},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":0,"w":134,"h":143},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_21.png":
+{
+	"frame": {"x":1643,"y":1,"w":145,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":1,"w":145,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_22.png":
+{
+	"frame": {"x":143,"y":250,"w":157,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":3,"w":157,"h":129},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_23.png":
+{
+	"frame": {"x":1503,"y":390,"w":157,"h":141},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":5,"w":157,"h":141},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_24.png":
+{
+	"frame": {"x":290,"y":381,"w":154,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":7,"w":154,"h":135},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_25.png":
+{
+	"frame": {"x":1626,"y":126,"w":168,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":9,"w":168,"h":127},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_26.png":
+{
+	"frame": {"x":302,"y":250,"w":170,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":7,"w":170,"h":129},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_27.png":
+{
+	"frame": {"x":153,"y":125,"w":170,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":5,"w":170,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_28.png":
+{
+	"frame": {"x":604,"y":1,"w":169,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":3,"w":169,"h":122},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_29.png":
+{
+	"frame": {"x":1,"y":1,"w":166,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":1,"w":166,"h":121},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_30.png":
+{
+	"frame": {"x":1051,"y":252,"w":158,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":0,"w":158,"h":131},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_31.png":
+{
+	"frame": {"x":1186,"y":527,"w":154,"h":146},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":0,"w":154,"h":146},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_32.png":
+{
+	"frame": {"x":1655,"y":533,"w":153,"h":156},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":1,"w":153,"h":156},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_33.png":
+{
+	"frame": {"x":1494,"y":533,"w":152,"h":159},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":2,"w":152,"h":159},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_34.png":
+{
+	"frame": {"x":886,"y":524,"w":144,"h":147},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":4,"w":144,"h":147},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_35.png":
+{
+	"frame": {"x":1648,"y":255,"w":139,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":7,"w":139,"h":133},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_36.png":
+{
+	"frame": {"x":295,"y":518,"w":146,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":5,"w":146,"h":143},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_37.png":
+{
+	"frame": {"x":1342,"y":531,"w":147,"h":150},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":3,"w":147,"h":150},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_38.png":
+{
+	"frame": {"x":443,"y":518,"w":143,"h":146},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":2,"w":143,"h":146},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_39.png":
+{
+	"frame": {"x":446,"y":381,"w":143,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":0,"w":143,"h":135},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_40.png":
+{
+	"frame": {"x":775,"y":1,"w":156,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":156,"h":122},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_41.png":
+{
+	"frame": {"x":1,"y":124,"w":150,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":0,"w":150,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_42.png":
+{
+	"frame": {"x":1043,"y":126,"w":148,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":0,"w":148,"h":124},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_43.png":
+{
+	"frame": {"x":1193,"y":126,"w":145,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":3,"w":145,"h":124},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_44.png":
+{
+	"frame": {"x":325,"y":125,"w":142,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":6,"w":142,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_45.png":
+{
+	"frame": {"x":469,"y":125,"w":139,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":9,"w":139,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_46.png":
+{
+	"frame": {"x":610,"y":125,"w":135,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":7,"w":135,"h":123},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_47.png":
+{
+	"frame": {"x":933,"y":1,"w":135,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":5,"w":135,"h":122},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_48.png":
+{
+	"frame": {"x":1340,"y":126,"w":139,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":3,"w":139,"h":124},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_49.png":
+{
+	"frame": {"x":474,"y":250,"w":143,"h":129},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":1,"w":143,"h":129},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_50.png":
+{
+	"frame": {"x":1211,"y":252,"w":147,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":0,"w":147,"h":132},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_51.png":
+{
+	"frame": {"x":745,"y":383,"w":150,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":0,"w":150,"h":136},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_52.png":
+{
+	"frame": {"x":1198,"y":386,"w":151,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":1,"w":151,"h":139},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_53.png":
+{
+	"frame": {"x":1662,"y":390,"w":150,"h":141},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":2,"w":150,"h":141},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_54.png":
+{
+	"frame": {"x":147,"y":518,"w":146,"h":142},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":4,"w":146,"h":142},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_55.png":
+{
+	"frame": {"x":591,"y":521,"w":144,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":7,"w":144,"h":143},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_56.png":
+{
+	"frame": {"x":737,"y":521,"w":143,"h":147},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":5,"w":143,"h":147},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_57.png":
+{
+	"frame": {"x":1035,"y":526,"w":144,"h":149},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":3,"w":144,"h":149},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_58.png":
+{
+	"frame": {"x":1,"y":517,"w":141,"h":144},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":2,"w":141,"h":144},
+	"sourceSize": {"w":184,"h":163}
+},
+"Samurai-idle_59.png":
+{
+	"frame": {"x":146,"y":381,"w":142,"h":134},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":0,"w":142,"h":134},
+	"sourceSize": {"w":184,"h":163}
+}},
+"animations": {
+	"Samurai-idle": ["Samurai-idle_00.png","Samurai-idle_01.png","Samurai-idle_02.png","Samurai-idle_03.png","Samurai-idle_04.png","Samurai-idle_05.png","Samurai-idle_06.png","Samurai-idle_07.png","Samurai-idle_08.png","Samurai-idle_09.png","Samurai-idle_10.png","Samurai-idle_11.png","Samurai-idle_12.png","Samurai-idle_13.png","Samurai-idle_14.png","Samurai-idle_15.png","Samurai-idle_16.png","Samurai-idle_17.png","Samurai-idle_18.png","Samurai-idle_19.png","Samurai-idle_20.png","Samurai-idle_21.png","Samurai-idle_22.png","Samurai-idle_23.png","Samurai-idle_24.png","Samurai-idle_25.png","Samurai-idle_26.png","Samurai-idle_27.png","Samurai-idle_28.png","Samurai-idle_29.png","Samurai-idle_30.png","Samurai-idle_31.png","Samurai-idle_32.png","Samurai-idle_33.png","Samurai-idle_34.png","Samurai-idle_35.png","Samurai-idle_36.png","Samurai-idle_37.png","Samurai-idle_38.png","Samurai-idle_39.png","Samurai-idle_40.png","Samurai-idle_41.png","Samurai-idle_42.png","Samurai-idle_43.png","Samurai-idle_44.png","Samurai-idle_45.png","Samurai-idle_46.png","Samurai-idle_47.png","Samurai-idle_48.png","Samurai-idle_49.png","Samurai-idle_50.png","Samurai-idle_51.png","Samurai-idle_52.png","Samurai-idle_53.png","Samurai-idle_54.png","Samurai-idle_55.png","Samurai-idle_56.png","Samurai-idle_57.png","Samurai-idle_58.png","Samurai-idle_59.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "samurai.png",
+	"format": "RGBA8888",
+	"size": {"w":1813,"h":687},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:628560db248472569f09a4a580d8f1b3:6409b2900074a8aa0a731add9baa1d59:be265156433b9bbfed9409b6a0aca942$"
+}
+}
