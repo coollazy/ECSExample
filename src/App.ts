@@ -16,6 +16,12 @@ import TurretDirectionSystem from "./Systems/TurretDirectionSystem";
 
 import BounceSystem from "./Systems/BounceSystem";
 
+import FireSystem from "./Systems/FireSystem";
+
+import ForceDirectionSystem from "./Systems/ForceDirectionSystem";
+
+import DestorySystem from "./Systems/DestorySystem";
+
 export default class App {
     readonly entityManager: EntityManager;
     readonly systemManager: SystemManager;
@@ -43,6 +49,12 @@ export default class App {
         this.systemManager.addSystem(new TurretDirectionSystem(this.entityManager));
 
         this.systemManager.addSystem(new BounceSystem(this.entityManager));
+        
+        this.systemManager.addSystem(new FireSystem(this.entityManager));
+
+        this.systemManager.addSystem(new ForceDirectionSystem(this.entityManager));
+
+        this.systemManager.addSystem(new DestorySystem(this.entityManager));
     }
 
     public update(delta: number) {

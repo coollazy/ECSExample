@@ -27,6 +27,7 @@ import LightTank from './Models/LightTank';
         'assets/bunny.png',
         'assets/crosshair/crosshair.png',
         'assets/turret/light tank.json',
+        'assets/bullet/bullet.png',
     ]);
 
     // 建立場景
@@ -36,7 +37,7 @@ import LightTank from './Models/LightTank';
     const bound = new BoundLayer(app.entityManager, pixi.screen.width, pixi.screen.height);
 
     // 建立 Bunny
-    const bunny = new Bunny(app.entityManager);
+    // const bunny = new Bunny(app.entityManager);
 
     // 建立砲台
     const lightTank = new LightTank(app.entityManager);

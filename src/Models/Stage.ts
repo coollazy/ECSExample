@@ -3,6 +3,7 @@ import EntityManager from "../ECS/EntityManager";
 import Entity from '../ECS/Entity';
 import ContainerComponent from '../Components/ContainerComponent';
 import Mouse from './Mouse';
+import Tap from './Tap';
 
 export default class Stage {
     view: Container
@@ -25,6 +26,14 @@ export default class Stage {
         this.view.on('mousemove', (event) => {
             mouse.entity.positionComponent.x = event.global.x - application.screen.width * 0.5;
             mouse.entity.positionComponent.y = event.global.y - application.screen.height * 0.5;
+        });
+
+        
+        // 建立一個 Entity 會接收點擊的事件，紀錄座標
+        this.view.on('pointerdown', (event) => {
+            const tap = new Tap(entityManager);
+            tap.entity.positionComponent.x = event.global.x - application.screen.width * 0.5;
+            tap.entity.positionComponent.y = event.global.y - application.screen.height * 0.5;
         });
     }
 }
