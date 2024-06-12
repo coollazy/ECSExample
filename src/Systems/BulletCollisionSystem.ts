@@ -31,7 +31,7 @@ export default class BulletCollisionSystem extends System {
                 // 子彈擊中敵人後消失
                 entity.addComponent(DestoryComponent);
                 // 被子彈擊中就消失
-                // enemyEntity.addComponent(DestoryComponent);
+                enemyEntity.addComponent(DestoryComponent);
             }
         });
     }
