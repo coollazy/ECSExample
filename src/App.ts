@@ -11,6 +11,7 @@ import RenderRotateSystem from "./Systems/RenderRotateSystem";
 import RotateUpdateSystem from "./Systems/RotateUpdateSystem";
 import RotateVelocityUpdateSystem from "./Systems/RotateVelocityUpdateSystem";
 
+import CrosshairSystem from "./Systems/CrosshairSystem";
 export default class App {
     readonly entityManager: EntityManager;
     readonly systemManager: SystemManager;
@@ -33,6 +34,8 @@ export default class App {
         this.systemManager.addSystem(new RenderRotateSystem(this.entityManager));
         this.systemManager.addSystem(new RotateUpdateSystem(this.entityManager));
         this.systemManager.addSystem(new RotateVelocityUpdateSystem(this.entityManager));
+
+        this.systemManager.addSystem(new CrosshairSystem(this.entityManager));
     }
 
     public update(delta: number) {

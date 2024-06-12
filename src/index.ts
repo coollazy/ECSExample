@@ -3,6 +3,7 @@ import App from './App';
 import Stage from './Models/Stage';
 import BoundLayer from './Models/BoundLayer';
 import Bunny from './Models/Bunny';
+import Crosshair from './Models/Crosshair';
 
 (async () =>
 {
@@ -23,6 +24,7 @@ import Bunny from './Models/Bunny';
     // 載入圖檔
     await Assets.load([
         'assets/bunny.png',
+        'assets/crosshair/crosshair.png',
     ]);
 
     // 建立場景
@@ -33,4 +35,7 @@ import Bunny from './Models/Bunny';
 
     // 建立 Bunny
     const bunny = new Bunny(app.entityManager);
+
+    // 建立準心
+    const corsshair = new Crosshair(app.entityManager);
 })();
