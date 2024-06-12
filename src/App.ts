@@ -12,6 +12,8 @@ import RotateUpdateSystem from "./Systems/RotateUpdateSystem";
 import RotateVelocityUpdateSystem from "./Systems/RotateVelocityUpdateSystem";
 
 import CrosshairSystem from "./Systems/CrosshairSystem";
+import TurretDirectionSystem from "./Systems/TurretDirectionSystem";
+
 export default class App {
     readonly entityManager: EntityManager;
     readonly systemManager: SystemManager;
@@ -36,6 +38,7 @@ export default class App {
         this.systemManager.addSystem(new RotateVelocityUpdateSystem(this.entityManager));
 
         this.systemManager.addSystem(new CrosshairSystem(this.entityManager));
+        this.systemManager.addSystem(new TurretDirectionSystem(this.entityManager));
     }
 
     public update(delta: number) {

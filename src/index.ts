@@ -4,6 +4,7 @@ import Stage from './Models/Stage';
 import BoundLayer from './Models/BoundLayer';
 import Bunny from './Models/Bunny';
 import Crosshair from './Models/Crosshair';
+import LightTank from './Models/LightTank';
 
 (async () =>
 {
@@ -25,6 +26,7 @@ import Crosshair from './Models/Crosshair';
     await Assets.load([
         'assets/bunny.png',
         'assets/crosshair/crosshair.png',
+        'assets/turret/light tank.json',
     ]);
 
     // 建立場景
@@ -34,7 +36,10 @@ import Crosshair from './Models/Crosshair';
     const bound = new BoundLayer(app.entityManager, pixi.screen.width, pixi.screen.height);
 
     // 建立 Bunny
-    const bunny = new Bunny(app.entityManager);
+    // const bunny = new Bunny(app.entityManager);
+
+    // 建立砲台
+    const lightTank = new LightTank(app.entityManager);
 
     // 建立準心
     const corsshair = new Crosshair(app.entityManager);
