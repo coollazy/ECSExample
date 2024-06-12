@@ -36,7 +36,7 @@ import LightTank from './Models/LightTank';
     const bound = new BoundLayer(app.entityManager, pixi.screen.width, pixi.screen.height);
 
     // 建立 Bunny
-    // const bunny = new Bunny(app.entityManager);
+    const bunny = new Bunny(app.entityManager);
 
     // 建立砲台
     const lightTank = new LightTank(app.entityManager);

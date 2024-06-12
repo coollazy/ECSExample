@@ -4,6 +4,8 @@ import EntityManager from "../ECS/EntityManager";
 import PositionComponent from '../Components/PositionComponent';
 import RotateComponent from '../Components/RotateComponent';
 import VelocityComponent from '../Components/VelocityComponent';
+import BounceComponent from '../Components/BounceComponent';
+import HitCircleComponent from '../Components/HitCircleComponent';
 
 export default class Bunny extends BaseContainer {
     get parentContainerName(): string {
@@ -46,7 +48,14 @@ export default class Bunny extends BaseContainer {
 
         // 增加移動速度組件
         this.entity.addComponent(VelocityComponent);
-        // this.entity.velocityComponent.x = 1;
-        // this.entity.velocityComponent.y = 1;
+        this.entity.velocityComponent.x = 3;
+        this.entity.velocityComponent.y = 3;
+
+        // 增加碰撞範圍組件
+        this.entity.addComponent(HitCircleComponent);
+        this.entity.hitCircleComponent.radius = 45;
+
+        // 增加碰到邊界會反彈的組件
+        this.entity.addComponent(BounceComponent);
     }
 }
