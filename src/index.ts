@@ -30,6 +30,7 @@ import CreateEnemy from './Models/CreateEnemy';
         'assets/turret/light tank.json',
         'assets/bullet/bullet.png',
         'assets/enemy/samurai.json',
+        'assets/explorsion/explorsion.json',
     ]);
 
     // 建立場景
