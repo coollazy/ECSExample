@@ -6,6 +6,8 @@ import Bunny from './Models/Bunny';
 import Crosshair from './Models/Crosshair';
 import LightTank from './Models/LightTank';
 import CreateEnemy from './Models/CreateEnemy';
+import BackgroundLayer from './Models/BackgroundLayer';
+import Background from './Models/Background';
 
 (async () =>
 {
@@ -31,10 +33,14 @@ import CreateEnemy from './Models/CreateEnemy';
         'assets/bullet/bullet.png',
         'assets/enemy/samurai.json',
         'assets/explorsion/explorsion.json',
+        'assets/background/background.jpg',
     ]);
 
     // 建立場景
     const stage = new Stage(pixi, app.entityManager);
+
+    // 建立背景 Layer
+    const backgroundLayer = new BackgroundLayer(app.entityManager, pixi.screen.width, pixi.screen.height);
 
     // 建立邊界 Layer
     const bound = new BoundLayer(app.entityManager, pixi.screen.width, pixi.screen.height);
@@ -47,6 +53,10 @@ import CreateEnemy from './Models/CreateEnemy';
 
     // 建立準心
     const corsshair = new Crosshair(app.entityManager);
+
+    // 建立背景圖
+    const background = new Background(app.entityManager);
+
     // 設定敵人出現
     new CreateEnemy(app.entityManager, 700, 0);
     new CreateEnemy(app.entityManager, 700, 100);
