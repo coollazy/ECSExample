@@ -6,7 +6,7 @@ import CrosshairComponent from '../Components/CrosshairComponent';
 
 export default class Crosshair extends BaseContainer {
     get parentContainerName(): string {
-        return "boundLayer";
+        return "uiLayer";
     }
 
     get name(): string {

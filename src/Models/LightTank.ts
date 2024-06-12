@@ -8,7 +8,7 @@ import RotateComponent from '../Components/RotateComponent';
 
 export default class LightTank extends BaseContainer {
     get parentContainerName(): string {
-        return "boundLayer";
+        return "uiLayer";
     }
 
     get name(): string {

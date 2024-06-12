@@ -5,6 +5,7 @@ import BoundLayer from './Models/BoundLayer';
 import Bunny from './Models/Bunny';
 import Crosshair from './Models/Crosshair';
 import LightTank from './Models/LightTank';
+import UILayer from './Models/UILayer';
 import CreateEnemy from './Models/CreateEnemy';
 import BackgroundLayer from './Models/BackgroundLayer';
 import Background from './Models/Background';
@@ -50,6 +51,9 @@ import Background from './Models/Background';
 
     // 建立砲台
     const lightTank = new LightTank(app.entityManager);
+
+    // 建立UI Layer
+    const uiLayer = new UILayer(app.entityManager, pixi.screen.width, pixi.screen.height);
 
     // 建立準心
     const corsshair = new Crosshair(app.entityManager);
